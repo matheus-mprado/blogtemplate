@@ -22,7 +22,10 @@ interface PostsProps {
 
 export default function Home({ posts }: PostsProps) {
   return (
-    <>
+    <>  
+      <Head>
+      <title>Início | Secretária de Saúde São Sebastião</title>
+      </Head>
 
       <main className={styles.postsContainer}>
         <h1>Notícias Recentes</h1>
