@@ -1,0 +1,33 @@
+.container{
+    width: 100%;
+}
+
+.content{
+    max-width: 1120px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 1rem 2rem;
+
+    img{
+        width: 150px;
+    }
+
+    button{
+        padding: 1rem 2rem;
+        font-size: 1rem;
+        background:var(--yellow-100);
+        color:var(--gray-50);
+        border:none;
+        font-weight: 500;
+
+        transition: filter 0.2s;
+
+        &:hover{
+            filter: brightness(0.8);
+        }
+    }
+}

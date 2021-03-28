@@ -1,0 +1,48 @@
+.postsContainer {
+  width: 1120px;
+  margin: 4rem auto;
+  padding: 1rem 2rem;
+
+  h1 {
+    margin-bottom: 2rem;
+  }
+}
+
+.postsContent {
+  a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--gray-100);
+
+    section {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 80%;
+
+      svg {
+        margin-right: 1rem;
+        font-size: 2rem;
+        list-style: 2rem;
+        height: auto;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      strong {
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
+        display: block;
+      }
+
+
+    }
+    & + a {
+      margin-top: 2rem;
+    }
+  }
+}
