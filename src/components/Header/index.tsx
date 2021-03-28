@@ -7,7 +7,7 @@ export function Header() {
             <div className={styles.content}>
                 <Link href="/">
                     <a>
-                        <h1>LOGO</h1>
+                        <img src="/logoPref.svg" alt="logotipo prefeitura" />
                     </a>
                 </Link>
                 <button>NOVA SOLICITAÇÃO</button>

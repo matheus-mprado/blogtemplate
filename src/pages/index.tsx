@@ -5,7 +5,7 @@ import { RichText } from "prismic-dom"
 import Head from 'next/head'
 import Link from 'next/link'
 
-import { IoMedicalSharp } from 'react-icons/io5'
+import { FaBriefcaseMedical } from 'react-icons/fa'
 
 import styles from '../styles/pages/Home.module.scss';
 
@@ -32,7 +32,7 @@ export default function Home({ posts }: PostsProps) {
               <a>
                 <section>
                   <div className="iconButton">
-                    <IoMedicalSharp />
+                    <FaBriefcaseMedical />
                   </div>
                   
                   <div>

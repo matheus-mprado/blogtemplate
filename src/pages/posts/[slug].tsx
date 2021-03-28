@@ -3,7 +3,7 @@ import Head from "next/head";
 import { RichText } from "prismic-dom";
 import { getPrismicClient } from "../../service/prismic";
 
-import styles from './styles.module.scss';
+import styles from '../../styles/pages/posts/Posts.module.scss';
 
 interface PostProps{
     post:{
