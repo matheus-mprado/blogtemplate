@@ -1,5 +1,5 @@
 .postsContainer {
-  width: 1120px;
+  max-width: 1120px;
   margin: 4rem auto;
   padding: 1rem 2rem;
 
@@ -37,12 +37,28 @@
         text-transform: uppercase;
         margin-bottom: 0.5rem;
         display: block;
+        font-size: 1.5rem;
       }
-
-
     }
     & + a {
       margin-top: 2rem;
+    }
+
+    @media (max-width: 500px) {
+      flex-direction: column;
+
+      time{
+        order:-1;
+      }
+      section {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+
+        svg{
+          display: none;
+        }
+      }
     }
   }
 }
