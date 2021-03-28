@@ -1,0 +1,23 @@
+.container {
+    width: 100%;
+    background:var(--blue-300);
+    color:var(--gray-50);
+    margin-top:10rem;
+}
+
+.content{
+    max-width: 1120px;
+    margin:0 auto;
+    padding:1rem 2rem;
+
+    div{
+
+        img{
+            height: 115px;
+        }
+    }
+
+    h4{
+        margin-bottom: 0.5rem;
+    }
+}
